@@ -346,6 +346,11 @@ export default {
       this.$message.success('更新角色成功')
       this.getList()
       this.setRoleDialogVisible = false
+    },
+    // 监听分配角色按钮对话框的关闭按钮
+    setRoleDialogClosed() {
+      this.selectRoleId = ''
+      this.userInfo = {}
     }
   }
 }
