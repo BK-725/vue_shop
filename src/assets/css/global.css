@@ -21,4 +21,16 @@ html,body,#app {
 }
 .el-cascader-panel {
     height: 300px;
-  }
+}
+.el-step__title {
+    font-size: 13px;
+}
+.el-steps {
+    margin: 15px 0;
+}
+.el-steps[data-v-8de88330] {
+    margin: 20px 200px;
+}
+.ql-editor {
+    min-height: 300px;
+}
