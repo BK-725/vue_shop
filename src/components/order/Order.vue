@@ -150,13 +150,13 @@ export default {
     },
     // 展示物流进度的按钮
     // async showProgressBox () {
-    // const { data: res } = await this.$http.get('/kuaidi/804909574412544580')
+    // const { data: res } = await this.$http.get('/kuaidi/1106975712662')
     // if (res.meta.status !== 200) {
     //   return this.$message.error('获取物流进度失败')
     // }
     // this.progressInfo = res.data
     // this.progressVisible = true
-    // console.log(this.progressInfo)
+    // console.log(this.progressInfo)'
     // }
     showProgressBox () {
       this.progressVisible = true

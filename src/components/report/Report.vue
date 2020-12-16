@@ -3,12 +3,13 @@
     <!-- 面包屑导航 -->
     <el-breadcrumb separator-class="el-icon-arrow-right">
       <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-      <el-breadcrumb-item>欢迎您！</el-breadcrumb-item>
+      <el-breadcrumb-item>数据统计</el-breadcrumb-item>
+      <el-breadcrumb-item>数据报表</el-breadcrumb-item>
     </el-breadcrumb>
     <!-- 卡片视图 -->
     <el-card class="box-card">
       <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-      <div id="main" style="width: 900px; height:600px;"></div>
+      <div id="main" style="width: 1500px; height:800px;"></div>
     </el-card>
   </div>
 </template>
@@ -23,7 +24,7 @@ export default {
       // options
       options: {
         title: {
-          text: '数据展示'
+          text: '用户来源'
         },
         tooltip: {
           trigger: 'axis',
