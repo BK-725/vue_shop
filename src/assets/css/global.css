@@ -34,3 +34,9 @@ html,body,#app {
 .ql-editor {
     min-height: 300px;
 }
+/* 站长统计的样式 */
+#cnzz_stat_icon_1279558143 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

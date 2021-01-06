@@ -175,7 +175,7 @@ export default {
       if (confirmResult !== 'confirm') {
         return this.$message.info('取消了删除')
       }
-      // console.log('确认了删除')
+      console.log('确认了删除')
       const { data: res } = await this.$http.delete(`roles/${role.id}/rights/${rightId}`)
       if (res.meta.status !== 200) {
         return this.$message.error('请求数据失败')
