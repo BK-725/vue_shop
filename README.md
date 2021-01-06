@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+简述我的电商管理项目
 ```
 
 ### Compiles and hot-reloads for development
