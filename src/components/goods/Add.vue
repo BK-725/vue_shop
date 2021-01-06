@@ -174,15 +174,15 @@ export default {
       }
     },
     beforeTabLeave (activeName, oldActiveName) {
-      // console.log('即将离开' + oldActiveName)
-      // console.log('即将进入' + activeName)
+      console.log('即将离开' + oldActiveName)
+      console.log('即将进入' + activeName)
       if (oldActiveName === '0' && this.addForm.goods_cat.length !== 3) {
         this.$message.error('请先选择商品分类！')
         return false
       }
     },
     async tabClicked () {
-      // console.log(this.activeIndex)
+      console.log(this.activeIndex)
       // 证明访问的是动态参数面板
       if (this.activeIndex === '1') {
         const { data: res } = await this.$http.get(`categories/${this.cateId}/attributes`, { params: { sel: 'many' } })
@@ -205,7 +205,7 @@ export default {
     },
     // 处理图片预览效果
     handlePreview (file) {
-      console.log(file)
+      // console.log(file)
       this.previewPath = file.response.data.url
       this.previewVisible = true
     },
@@ -230,7 +230,7 @@ export default {
     },
     // 添加商品
     add () {
-      // console.log(this.addForm)
+      console.log(this.addForm)
       this.$refs.addFormRef.validate(async valid => {
         if (!valid) {
           return this.$message.error('请填写必要的表单项')

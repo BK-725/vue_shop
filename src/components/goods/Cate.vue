@@ -153,7 +153,6 @@ export default {
       if (res.meta.status !== 200) {
         this.$message.error('获取父级分类数据失败！')
       }
-
       console.log(res.data)
       this.parentCateList = res.data
     },
@@ -176,7 +175,7 @@ export default {
     },
     // 点击按钮，添加新的分类
     addCate () {
-      // console.log(this.addCateForm)
+      console.log(this.addCateForm)
       this.$refs.addCateFormRef.validate(async valid => {
         if (!valid) return
         const { data: res } = await this.$http.post('categories', this.addCateForm)
