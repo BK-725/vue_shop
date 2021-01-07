@@ -9,7 +9,7 @@
 `vue_shop`是一个电商管理系统的前端项目，基于Vue+Element实现。主要包括：用户管理、权限管理、商品管理、订单管理、数据统计、数据报表、角色、分类、商品等功能。
 
 ### 项目演示
-项目在线演示地址：[http://www.bk725.top/#/login](http://www.bk725.top/#/login)
+项目在线演示地址：[http://www.bk725.top](http://www.bk725.top)
 
 ### 技术选型
 
@@ -24,7 +24,7 @@ nprogress | 进度条控件 | [https://github.com/rstacruz/nprogress](https://gi
 vue-element-admin | 项目脚手架参考 | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ### 项目布局
-``` lua
+
 src -- 源码目录
 ├── assets -- 静态图片资源文件
 ├── plugins -- element按需加载组件
@@ -39,5 +39,4 @@ src -- 源码目录
     └── report -- 数据统计
 public -- 源码目录
 ├── index.html -- 为了降低cli的大小.将所有加载文件放到index中
-```
 
