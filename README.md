@@ -12,7 +12,7 @@
 
 ### 项目演示
 ```
-项目在线演示地址：[http://www.bk725.top/#/login](http://www.bk725.top/#/login)  
+项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)  
 ```
 
 ### 技术选型
