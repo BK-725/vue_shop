@@ -24,7 +24,7 @@ nprogress | 进度条控件 | [https://github.com/rstacruz/nprogress](https://gi
 vue-element-admin | 项目脚手架参考 | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ### 项目布局
-
+```lua
 src -- 源码目录
 ├── assets -- 静态图片资源文件
 ├── plugins -- element按需加载组件
@@ -39,4 +39,4 @@ src -- 源码目录
     └── report -- 数据统计
 public -- 源码目录
 ├── index.html -- 为了降低cli的大小.将所有加载文件放到index中
-
+```
