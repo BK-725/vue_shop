@@ -11,8 +11,27 @@
 ### 项目演示
 项目在线演示地址：[http://www.bk725.top](http://www.bk725.top)
 
-
+#### 登录页面
 ![登陆页面](images/login.png)
+
+#### 页面首页
+![页面首页](images/home.png)
+
+#### 用户管理
+![用户管理](images/user.png)
+
+#### 权限管理
+![权限管理](images/order.png)
+
+#### 商品管理
+![商品管理](images/goods.png)
+
+#### 订单管理
+![订单管理](images/auth.png)
+
+#### 数据统计
+![数据统计](images/data.png)
+
 ### 技术选型
 
 技术 | 说明 | 官网
