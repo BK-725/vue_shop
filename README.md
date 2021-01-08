@@ -65,3 +65,5 @@ public -- 源码目录
 交流学习
 #### V：bk72500
 #### QQ：80371033
+## 许可证
+[Apache License 2.0](https://github.com/BK-725/vue_shop/blob/master/LICENSE)
