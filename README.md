@@ -9,7 +9,8 @@
 `vue_shop`是一个电商管理系统的前端项目，基于Vue+Element实现。主要包括：用户管理、权限管理、商品管理、订单管理、数据统计、数据报表、角色、分类、商品等功能。
 
 ## 项目演示
-项目在线演示地址：[http://www.bk725.top](http://www.bk725.top)
+项目在线演示地址：[http://www.bk725.top](http://www.bk725.top)  
+gitee项目地址：[https://gitee.com/bk725/vue_shop](https://gitee.com/bk725/vue_shop)
 
 ##### 登录页面
 ![登陆页面](images/login.png)
