@@ -1,5 +1,6 @@
 <template>
   <el-container class="home-container">
+
     <!-- 头部区域 -->
     <el-header>
       <div>
@@ -8,6 +9,7 @@
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
+
     <!-- 页面主题区域 -->
     <el-container>
       <!-- 侧边栏 -->
@@ -36,6 +38,7 @@
       </el-submenu>
     </el-menu>
     </el-aside>
+
       <!-- 右侧内容主体 -->
       <el-main>
         <router-view></router-view>

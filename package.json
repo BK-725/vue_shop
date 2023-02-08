@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.0",
+    "commitizen": "^4.3.0",
     "core-js": "^3.6.5",
     "echarts": "^5.0.0",
     "element-ui": "^2.13.2",
@@ -39,5 +40,10 @@
     "vue-cli-plugin-element": "^1.0.1",
     "vue-table-with-tree-grid": "^0.2.4",
     "vue-template-compiler": "^2.6.11"
+  },
+  "config": {
+    "commitizen": {
+    "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
